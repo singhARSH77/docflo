@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"name": "docflo_app",
+				"type": "python",
+				"cwd": "${workspaceFolder}/api_service",
+				"request": "launch",
+				"program": "docflo_app.py",
+				"console": "integratedTerminal",
+				"justMyCode": true,
+				"args": ["config.json"]
+			}
+		]
+	}
+}

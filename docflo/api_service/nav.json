@@ -1,0 +1,39 @@
+{
+    "menus": [{
+            "label": "Admin",
+            "items": [{
+                    "label": "Find Users",
+                    "href": "#/user.find",
+                    "roles": "SUP"
+                },
+                {
+                    "label": "New User",
+                    "href": "#/user",
+                    "roles": "SUP"
+                },
+                {
+                    "label": "Manage Doc Types",
+                    "href": "#/doc_type.find",
+                    "roles": "SUP"
+                },
+                {
+                    "label": "Manage Form Actions",
+                    "href": "#/form.actions",
+                    "roles": "SUP"
+                }
+            ]
+        }
+    ],
+    "links": [ 
+        {
+            "label": "Find Documents",
+            "href": "#/doc_item.find",
+            "roles": "*"
+        },
+        {
+            "label": "Add Bar",
+            "href": "#/doc_item/Bar",
+            "roles": "*"
+        }
+    ]
+}

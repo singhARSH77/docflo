@@ -1,0 +1,33 @@
+{
+    "UserRoles": [
+        {"id": "FAC", "value": "Faculty"},
+        {"id": "FAC-CON", "value": "Faculty (Contractual)"},
+        {"id": "STA", "value": "Non-teaching Staff"},
+        {"id": "STA-CON", "value": "Non-teaching (Contractual)"},
+        {"id": "HOD", "value": "Area Chair"},
+        {"id": "MGR", "value": "Manager"},
+        {"id": "DEA", "value": "Dean"},
+        {"id": "DIR", "value": "Director"},
+        {"id": "SUP", "value": "Superuser"},
+        {"id": "ANY", "value": "Any Role"}
+    ],
+    "WfStatuses": [
+        {"id": "", "value": "Choose..."},
+        {"id": "DRA", "value": "Draft"},
+        {"id": "SUB", "value": "Approval Pending"},
+        {"id": "SUBREC", "value": "Recomm. Pending"},
+        {"id": "APP", "value": "Approved"},
+        {"id": "REJ", "value": "Rejected"},
+        {"id": "REJREC", "value": "Not Recommended"},
+        {"id": "WIT", "value": "Withdrawn"},
+        {"id": "COM", "value": "Completed"},
+        {"id": "RECALL", "value": "Recalled"}
+    ],
+    "DocFieldTypes": [
+        {"id": "text", "value": "String"},
+        {"id": "integer", "value": "Integer Value"},
+        {"id": "float", "value": "Float Value"},
+        {"id": "boolean", "value": "Boolean Value"},
+        {"id": "date", "value": "Date Time"}
+    ]
+}

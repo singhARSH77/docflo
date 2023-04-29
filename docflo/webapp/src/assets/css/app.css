@@ -1,0 +1,25 @@
+.row-striped:nth-of-type(odd) {
+    background-color: #e4e4e4;
+    --bs-bg-opacity: .15;
+    margin-bottom: 0.2rem;
+}
+
+.hdr-row {
+    font-weight: bolder;
+}
+
+.sec-hdr {
+    font-weight: bolder;
+    font-size: 1.1rem;
+    font-variant: small-caps;
+}
+
+.label-sm {
+    font-weight: bold;
+    font-size: 0.8rem;
+    font-variant: small-caps;
+}
+
+.nav-link:hover {
+    text-decoration-line: overline;
+}

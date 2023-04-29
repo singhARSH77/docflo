@@ -1,0 +1,11 @@
+gunicorn[gthread]
+cryptography
+mysql-connector-python
+flask
+peewee
+toml
+google-api-python-client
+pytest
+requests
+apscheduler
+pymysql

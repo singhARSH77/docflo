@@ -1,0 +1,21 @@
+{
+    "host": "localhost",
+    "port": 5500,
+    "db_name": "docflo_db",
+    "db_args": {
+        "user": "app_user",
+        "password": "passw0rd.",
+        "host": "localhost",
+        "port": 3306,
+        "sql_mode": "STRICT_ALL_TABLES"
+    },
+    "demo_data": false,
+    "email": {
+        "dryrun": true,
+        "user": "noreply@gtungi.in",
+        "password": "****",
+        "host": "us2.smtp.mailhostbox.com",
+        "port": 587
+    },
+    "upload_folder": "docflo_uploads"
+}

@@ -1,0 +1,15 @@
+find_leave_appl="""SELECT la.id, la.start_dt, la.end_dt, la.leave_type, 
+    la.status, u.first_name, u.last_name, u.role, p.emp_type,
+    p.area, p.doj
+    FROM docflo_db.leaveapplication la
+    LEFT OUTER JOIN docflo_db.user u on u.id=la.user_id
+    LEFT OUTER JOIN docflo_db.userprofile p on p.user_id=u.id 
+        AND p.valid_from <= NOW() 
+        AND (p.valid_till IS NULL OR p.valid_till >= NOW())
+    WHERE (la.user_id = %s OR %s = '')
+    AND (p.area = %s OR %s = '')
+    AND (la.start_dt >= %s OR %s IS NULL)
+    AND (la.end_dt >= %s OR %s IS NULL)
+    AND (la.leave_type = %s OR %s = '')
+    ORDER BY 1 LIMIT %s OFFSET %s
+    ;"""

@@ -1,0 +1,7 @@
+Hello,
+
+Your login ID for EIS system is your email address itself.
+Please visit https://go.gtungi.in/eis to login. 
+
+Thanks,
+EIS
